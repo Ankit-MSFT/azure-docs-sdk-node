@@ -1,77 +1,62 @@
 - name: Reference
-  uid: azure.nodejs.sdk.landingpage.reference.prev
   landingPageType: Root
   expanded: false
   items:
   - name: Event Grid
-    uid: azure.nodejs.sdk.landingpage.services.eventgrid.prev
     href: ~/docs-ref-services/legacy/event-grid.md
     landingPageType: Service
     items:
     - name: Event Grid
-      uid: azure.nodejs.sdk.landingpage.services.eventgrid.client.EventGrid.prev
       children:
       - '@azure/eventgrid'
       landingPageType: Service
   - name: Event Hubs
-    uid: azure.nodejs.sdk.landingpage.services.eventhubs.prev
     href: ~/docs-ref-services/legacy/event-hubs.md
     landingPageType: Service
     items:
     - name: Event Hubs - Event Processor
-      uid: azure.nodejs.sdk.landingpage.services.eventhubs.client.EventHubsEventProcessor.prev
       children:
       - '@azure/event-processor-host'
       landingPageType: Service
     - name: Management
-      uid: azure.nodejs.sdk.landingpage.services.eventhubs.management.prev
       landingPageType: Service
       children:
       - '@azure/arm-eventhub'
       - azure-arm-eventhub
   - name: Key Vault
-    uid: azure.nodejs.sdk.landingpage.services.keyvault.prev
     href: ~/docs-ref-services/legacy/key-vault.md
     landingPageType: Service
     items:
     - name: Key Vault
-      uid: azure.nodejs.sdk.landingpage.services.keyvault.client.KeyVault.prev
       children:
       - azure-keyvault
       landingPageType: Service
     - name: Management
-      uid: azure.nodejs.sdk.landingpage.services.keyvault.management.prev
       landingPageType: Service
       children:
       - azure-arm-keyvault
       - '@azure/arm-keyvault'
   - name: Storage
-    uid: azure.nodejs.sdk.landingpage.services.storage.prev
     href: ~/docs-ref-services/legacy/storage.md
     landingPageType: Service
     items:
     - name: Storage - Blobs
-      uid: azure.nodejs.sdk.landingpage.services.storage.client.StorageBlobs.prev
       href: ~/docs-ref-services/legacy/storage-blob-readme.md
       children:
       - '@azure/storage-blob'
     - name: Storage - Files Shares
-      uid: azure.nodejs.sdk.landingpage.services.storage.client.StorageFilesShares.prev
       children:
       - '@azure/storage-file'
       landingPageType: Service
     - name: Storage - Queues
-      uid: azure.nodejs.sdk.landingpage.services.storage.client.StorageQueues.prev
       href: ~/docs-ref-services/legacy/storage-queue-readme.md
       children:
       - '@azure/storage-queue'
     - name: Storage
-      uid: azure.nodejs.sdk.landingpage.services.storage.client.Storage.prev
       children:
       - azure-storage
       landingPageType: Service
     - name: Management
-      uid: azure.nodejs.sdk.landingpage.services.storage.management.prev
       landingPageType: Service
       children:
       - '@azure/arm-storageimportexport'
@@ -81,11 +66,9 @@
       - azure-arm-storageimportexport
       - azure-arm-storage
   - name: Other
-    uid: azure.nodejs.sdk.landingpage.services.other.prev
     landingPageType: Service
     items:
     - name: Uncategorized Packages
-      uid: azure.nodejs.sdk.landingPage.services.other.uncatpackages.prev
       landingPageType: Service
       children:
       - '**'
