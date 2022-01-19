@@ -7,7 +7,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-analysisservices'
   - name: Anomaly Detector
@@ -21,14 +20,12 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-apimanagement'
   - name: App Configuration
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-appconfiguration'
   - name: App Service
@@ -36,7 +33,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-appservice'
   - name: Authorization
@@ -44,7 +40,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-authorization'
   - name: Azure Confidential Ledger
@@ -58,14 +53,12 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-batch'
   - name: Bot Service
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-botservice'
   - name: Communication
@@ -88,21 +81,18 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-compute'
   - name: Confluent
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-confluent'
   - name: Consumption
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-consumption'
   - name: Container Registry
@@ -114,7 +104,6 @@
       children:
       - '@azure/container-registry'
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-containerregistry'
   - name: Container Service
@@ -122,7 +111,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-containerservice'
   - name: Content Delivery Network
@@ -130,7 +118,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-cdn'
   - name: Cosmos DB
@@ -138,14 +125,12 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-cosmosdb'
   - name: Data Factory
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-datafactory'
   - name: Data Lake Storage (Gen 2)
@@ -160,7 +145,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-mysql'
   - name: Database for PostgreSQL
@@ -168,14 +152,12 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-postgresql'
   - name: Databricks
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-databricks'
   - name: Datalake-Analytics
@@ -183,14 +165,12 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-datalake-analytics'
   - name: Desktopvirtualization
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-desktopvirtualization'
   - name: DevTest Labs
@@ -198,7 +178,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-devtestlabs'
   - name: Digital Twins
@@ -220,7 +199,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-eventgrid'
   - name: Event Hubs
@@ -232,7 +210,6 @@
       children:
       - '@azure/event-hubs'
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-eventhub'
       - azure-arm-eventhub
@@ -240,7 +217,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-extendedlocation'
   - name: farmbeats
@@ -254,7 +230,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-features'
   - name: Form Recognizer
@@ -299,29 +274,25 @@
       children:
       - '@azure/keyvault-secrets'
     - name: Management
-      landingPageType: Service
       children:
-      - azure-arm-keyvault
       - '@azure/arm-keyvault'
+      - azure-arm-keyvault
   - name: Links
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-links'
   - name: Loadtestservice
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-loadtestservice'
   - name: Locks
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-locks'
   - name: Logic Apps
@@ -329,21 +300,18 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-logic'
   - name: Managed Applications
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-managedapplications'
   - name: Management Groups
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-managementgroups'
   - name: Media Services
@@ -351,7 +319,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-mediaservices'
   - name: Mixed Reality
@@ -379,73 +346,66 @@
       children:
       - '@azure/monitor-query'
     - name: Management
-      landingPageType: Service
       children:
-      - '@azure/arm-operationalinsights'
       - '@azure/arm-appinsights'
       - '@azure/arm-monitor'
+      - '@azure/arm-operationalinsights'
   - name: Notification Hubs
     href: ~/docs-ref-services/preview/notification-hubs.md
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-notificationhubs'
   - name: Operations Management
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-operations'
   - name: Orbital
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-orbital'
   - name: Policy
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-policy'
   - name: Portal
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-portal'
   - name: Purview
     landingPageType: Service
     items:
     - name: Purview Account
+      href: ~/docs-ref-services/preview/purview-account-rest-readme.md
       children:
       - '@azure-rest/purview-account'
-      landingPageType: Service
     - name: Purview Catalog
+      href: ~/docs-ref-services/preview/purview-catalog-rest-readme.md
       children:
       - '@azure-rest/purview-catalog'
-      landingPageType: Service
     - name: Purview Scanning
+      href: ~/docs-ref-services/preview/purview-scanning-rest-readme.md
       children:
       - '@azure-rest/purview-scanning'
-      landingPageType: Service
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-purview'
   - name: Purview Administration
     landingPageType: Service
     items:
     - name: Purview Administration
+      href: ~/docs-ref-services/preview/purview-administration-rest-readme.md
       children:
       - '@azure-rest/purview-administration'
-      landingPageType: Service
   - name: Quantum
     landingPageType: Service
     items:
@@ -457,7 +417,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-quota'
   - name: Redis Cache
@@ -465,21 +424,18 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-rediscache'
   - name: Resource Health
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-resourcehealth'
   - name: Resource Management - Service Fabric
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-servicefabric'
   - name: Resources
@@ -487,14 +443,12 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-resources'
   - name: Resources Subscriptions
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-resources-subscriptions'
   - name: Schema Registry
@@ -517,14 +471,12 @@
       children:
       - '@azure/search-documents'
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-search'
   - name: Security Center
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-security'
   - name: Service Bus
@@ -536,7 +488,6 @@
       children:
       - '@azure/service-bus'
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-servicebus'
   - name: Site Recovery
@@ -544,7 +495,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-recoveryservices'
       - '@azure/arm-recoveryservices-siterecovery'
@@ -553,7 +503,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-appplatform'
   - name: SQL
@@ -561,21 +510,18 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-sql'
   - name: SQL Server on Virtual Machines
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-sqlvirtualmachine'
   - name: Stack
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-azurestack'
   - name: Storage
@@ -599,19 +545,17 @@
       children:
       - '@azure/storage-queue'
     - name: Management
-      landingPageType: Service
       children:
-      - '@azure/arm-storageimportexport'
       - '@azure/arm-storage'
-      - '@azure/arm-storagesync'
       - '@azure/arm-storagecache'
-      - azure-arm-storageimportexport
+      - '@azure/arm-storageimportexport'
+      - '@azure/arm-storagesync'
       - azure-arm-storage
+      - azure-arm-storageimportexport
   - name: Stream Analytics
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-streamanalytics'
   - name: Synapse Analytics
@@ -641,7 +585,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-templatespecs'
   - name: Text Analytics
@@ -662,7 +605,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-videoanalyzer'
   - name: Virtual Network
@@ -670,7 +612,6 @@
     landingPageType: Service
     items:
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-network'
   - name: Web PubSub
@@ -685,7 +626,6 @@
       children:
       - '@azure/web-pubsub-express'
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-webpubsub'
   - name: Other
@@ -695,9 +635,9 @@
       landingPageType: Service
       items:
       - name: Core - Rest
+        href: ~/docs-ref-services/preview/core-client-rest-readme.md
         children:
         - '@azure-rest/core-client'
-        landingPageType: Service
       - name: AMQP Common
         children:
         - '@azure/amqp-common'

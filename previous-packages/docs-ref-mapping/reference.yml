@@ -19,7 +19,6 @@
       - '@azure/event-processor-host'
       landingPageType: Service
     - name: Management
-      landingPageType: Service
       children:
       - '@azure/arm-eventhub'
       - azure-arm-eventhub
@@ -32,10 +31,9 @@
       - azure-keyvault
       landingPageType: Service
     - name: Management
-      landingPageType: Service
       children:
-      - azure-arm-keyvault
       - '@azure/arm-keyvault'
+      - azure-arm-keyvault
   - name: Storage
     href: ~/docs-ref-services/legacy/storage.md
     landingPageType: Service
@@ -57,14 +55,13 @@
       - azure-storage
       landingPageType: Service
     - name: Management
-      landingPageType: Service
       children:
-      - '@azure/arm-storageimportexport'
       - '@azure/arm-storage'
-      - '@azure/arm-storagesync'
       - '@azure/arm-storagecache'
-      - azure-arm-storageimportexport
+      - '@azure/arm-storageimportexport'
+      - '@azure/arm-storagesync'
       - azure-arm-storage
+      - azure-arm-storageimportexport
   - name: Other
     landingPageType: Service
     items:
