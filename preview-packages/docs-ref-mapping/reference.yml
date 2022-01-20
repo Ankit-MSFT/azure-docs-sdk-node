@@ -631,29 +631,26 @@
   - name: Other
     landingPageType: Service
     items:
-    - name: Core
+    - name: Core - Rest
+      href: ~/docs-ref-services/preview/core-client-rest-readme.md
+      children:
+      - '@azure-rest/core-client'
+    - name: AMQP Common
+      children:
+      - '@azure/amqp-common'
       landingPageType: Service
-      items:
-      - name: Core - Rest
-        href: ~/docs-ref-services/preview/core-client-rest-readme.md
-        children:
-        - '@azure-rest/core-client'
-      - name: AMQP Common
-        children:
-        - '@azure/amqp-common'
-        landingPageType: Service
-      - name: Core - Https
-        href: ~/docs-ref-services/preview/core-https-readme.md
-        children:
-        - '@azure/core-https'
-      - name: Core - Tracing
-        href: ~/docs-ref-services/preview/core-tracing-readme.md
-        children:
-        - '@azure/core-tracing'
-      - name: Core Utils
-        href: ~/docs-ref-services/preview/core-util-readme.md
-        children:
-        - '@azure/core-util'
+    - name: Core - Https
+      href: ~/docs-ref-services/preview/core-https-readme.md
+      children:
+      - '@azure/core-https'
+    - name: Core - Tracing
+      href: ~/docs-ref-services/preview/core-tracing-readme.md
+      children:
+      - '@azure/core-tracing'
+    - name: Core Utils
+      href: ~/docs-ref-services/preview/core-util-readme.md
+      children:
+      - '@azure/core-util'
     - name: Uncategorized Packages
       landingPageType: Service
       children:

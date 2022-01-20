@@ -1417,69 +1417,66 @@
   - name: Other
     landingPageType: Service
     items:
-    - name: Core
-      landingPageType: Service
-      items:
-      - name: Core - Rest
-        href: ~/docs-ref-services/{moniker}/core-client-rest-readme.md
-        children:
-        - '@azure-rest/core-client'
-      - name: Core - Abort Controller
-        href: ~/docs-ref-services/{moniker}/abort-controller-readme.md
-        children:
-        - '@azure/abort-controller'
-      - name: AMQP Common
-        href: ~/docs-ref-services/{moniker}/amqp-common-readme.md
-        children:
-        - '@azure/amqp-common'
-      - name: Core - AMQP
-        href: ~/docs-ref-services/{moniker}/core-amqp-readme.md
-        children:
-        - '@azure/core-amqp'
-      - name: Core - Auth
-        href: ~/docs-ref-services/{moniker}/core-auth-readme.md
-        children:
-        - '@azure/core-auth'
-      - name: Core - Client
-        href: ~/docs-ref-services/{moniker}/core-client-readme.md
-        children:
-        - '@azure/core-client'
-      - name: Core - HTTP
-        href: ~/docs-ref-services/{moniker}/core-http-readme.md
-        children:
-        - '@azure/core-http'
-      - name: Core - Https
-        href: ~/docs-ref-services/{moniker}/core-https-readme.md
-        children:
-        - '@azure/core-https'
-      - name: Core - LRO
-        href: ~/docs-ref-services/{moniker}/core-lro-readme.md
-        children:
-        - '@azure/core-lro'
-      - name: Core - Paging
-        href: ~/docs-ref-services/{moniker}/core-paging-readme.md
-        children:
-        - '@azure/core-paging'
-      - name: Core Rest Pipeline
-        href: ~/docs-ref-services/{moniker}/core-rest-pipeline-readme.md
-        children:
-        - '@azure/core-rest-pipeline'
-      - name: Core - Tracing
-        href: ~/docs-ref-services/{moniker}/core-tracing-readme.md
-        children:
-        - '@azure/core-tracing'
-      - name: Core Utils
-        href: ~/docs-ref-services/{moniker}/core-util-readme.md
-        children:
-        - '@azure/core-util'
-      - name: Core - XML
-        href: ~/docs-ref-services/{moniker}/core-xml-readme.md
-        children:
-        - '@azure/core-xml'
-      - name: Core - Logger
-        href: ~/docs-ref-services/{moniker}/logger-readme.md
-        children:
-        - '@azure/logger'
+    - name: Core - Rest
+      href: ~/docs-ref-services/{moniker}/core-client-rest-readme.md
+      children:
+      - '@azure-rest/core-client'
+    - name: Core - Abort Controller
+      href: ~/docs-ref-services/{moniker}/abort-controller-readme.md
+      children:
+      - '@azure/abort-controller'
+    - name: AMQP Common
+      href: ~/docs-ref-services/{moniker}/amqp-common-readme.md
+      children:
+      - '@azure/amqp-common'
+    - name: Core - AMQP
+      href: ~/docs-ref-services/{moniker}/core-amqp-readme.md
+      children:
+      - '@azure/core-amqp'
+    - name: Core - Auth
+      href: ~/docs-ref-services/{moniker}/core-auth-readme.md
+      children:
+      - '@azure/core-auth'
+    - name: Core - Client
+      href: ~/docs-ref-services/{moniker}/core-client-readme.md
+      children:
+      - '@azure/core-client'
+    - name: Core - HTTP
+      href: ~/docs-ref-services/{moniker}/core-http-readme.md
+      children:
+      - '@azure/core-http'
+    - name: Core - Https
+      href: ~/docs-ref-services/{moniker}/core-https-readme.md
+      children:
+      - '@azure/core-https'
+    - name: Core - LRO
+      href: ~/docs-ref-services/{moniker}/core-lro-readme.md
+      children:
+      - '@azure/core-lro'
+    - name: Core - Paging
+      href: ~/docs-ref-services/{moniker}/core-paging-readme.md
+      children:
+      - '@azure/core-paging'
+    - name: Core Rest Pipeline
+      href: ~/docs-ref-services/{moniker}/core-rest-pipeline-readme.md
+      children:
+      - '@azure/core-rest-pipeline'
+    - name: Core - Tracing
+      href: ~/docs-ref-services/{moniker}/core-tracing-readme.md
+      children:
+      - '@azure/core-tracing'
+    - name: Core Utils
+      href: ~/docs-ref-services/{moniker}/core-util-readme.md
+      children:
+      - '@azure/core-util'
+    - name: Core - XML
+      href: ~/docs-ref-services/{moniker}/core-xml-readme.md
+      children:
+      - '@azure/core-xml'
+    - name: Core - Logger
+      href: ~/docs-ref-services/{moniker}/logger-readme.md
+      children:
+      - '@azure/logger'
     - name: Uncategorized Packages
       landingPageType: Service
       children:

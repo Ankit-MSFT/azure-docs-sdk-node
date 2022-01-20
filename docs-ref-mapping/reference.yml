@@ -1131,49 +1131,46 @@
   - name: Other
     landingPageType: Service
     items:
-    - name: Core
-      landingPageType: Service
-      items:
-      - name: Core - Abort Controller
-        href: ~/docs-ref-services/latest/abort-controller-readme.md
-        children:
-        - '@azure/abort-controller'
-      - name: Core - AMQP
-        href: ~/docs-ref-services/latest/core-amqp-readme.md
-        children:
-        - '@azure/core-amqp'
-      - name: Core - Auth
-        href: ~/docs-ref-services/latest/core-auth-readme.md
-        children:
-        - '@azure/core-auth'
-      - name: Core - Client
-        href: ~/docs-ref-services/latest/core-client-readme.md
-        children:
-        - '@azure/core-client'
-      - name: Core - HTTP
-        href: ~/docs-ref-services/latest/core-http-readme.md
-        children:
-        - '@azure/core-http'
-      - name: Core - LRO
-        href: ~/docs-ref-services/latest/core-lro-readme.md
-        children:
-        - '@azure/core-lro'
-      - name: Core - Paging
-        href: ~/docs-ref-services/latest/core-paging-readme.md
-        children:
-        - '@azure/core-paging'
-      - name: Core Rest Pipeline
-        href: ~/docs-ref-services/latest/core-rest-pipeline-readme.md
-        children:
-        - '@azure/core-rest-pipeline'
-      - name: Core - XML
-        href: ~/docs-ref-services/latest/core-xml-readme.md
-        children:
-        - '@azure/core-xml'
-      - name: Core - Logger
-        href: ~/docs-ref-services/latest/logger-readme.md
-        children:
-        - '@azure/logger'
+    - name: Core - Abort Controller
+      href: ~/docs-ref-services/latest/abort-controller-readme.md
+      children:
+      - '@azure/abort-controller'
+    - name: Core - AMQP
+      href: ~/docs-ref-services/latest/core-amqp-readme.md
+      children:
+      - '@azure/core-amqp'
+    - name: Core - Auth
+      href: ~/docs-ref-services/latest/core-auth-readme.md
+      children:
+      - '@azure/core-auth'
+    - name: Core - Client
+      href: ~/docs-ref-services/latest/core-client-readme.md
+      children:
+      - '@azure/core-client'
+    - name: Core - HTTP
+      href: ~/docs-ref-services/latest/core-http-readme.md
+      children:
+      - '@azure/core-http'
+    - name: Core - LRO
+      href: ~/docs-ref-services/latest/core-lro-readme.md
+      children:
+      - '@azure/core-lro'
+    - name: Core - Paging
+      href: ~/docs-ref-services/latest/core-paging-readme.md
+      children:
+      - '@azure/core-paging'
+    - name: Core Rest Pipeline
+      href: ~/docs-ref-services/latest/core-rest-pipeline-readme.md
+      children:
+      - '@azure/core-rest-pipeline'
+    - name: Core - XML
+      href: ~/docs-ref-services/latest/core-xml-readme.md
+      children:
+      - '@azure/core-xml'
+    - name: Core - Logger
+      href: ~/docs-ref-services/latest/logger-readme.md
+      children:
+      - '@azure/logger'
     - name: Uncategorized Packages
       landingPageType: Service
       children:
